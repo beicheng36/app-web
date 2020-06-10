@@ -1,0 +1,36 @@
+html {
+    /* px表示"像素(pixels)":基础字号为10像素 */
+    font-size: 10px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00539F;  /* 指定元素的背景颜色 */
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+p, li {
+    font-size: 16px;
+    line-height: 2;     /* 行高 */
+    letter-spacing: 1px; /* 字间距 */
+}
+
+body {
+   width: 600px;     /* 强制页面永远保持 600 像素宽 */
+   margin: 0 auto;  /* 即外边距，围绕元素外部的空间 */
+   background-color: #ff9500; /* 指定元素的背景颜色 */
+   padding: 0 20px 20px 20px;   /* 内边距，围绕着内容（比如段落）的空间,值以上、右、下、左的顺序排列*/
+   border: 5px solid black;   /* 为 body 设置 5 像素的黑色实线边框 */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
